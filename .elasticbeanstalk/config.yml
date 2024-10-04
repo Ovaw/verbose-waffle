@@ -2,5 +2,19 @@ branch-defaults:
   develop:
     environment: null
     group_suffix: null
+  main:
+    environment: null
 global:
+  application_name: app_rails
+  branch: main
+  default_ec2_keyname: my_web_service_key
+  default_platform: ECS running on 64bit Amazon Linux 2023
+  default_region: ap-northeast-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
   profile: kei9o
+  repository: origin
+  sc: git
+  workspace_type: Application
